@@ -11,12 +11,7 @@ This project implements a PID controller to maintain a vehicle speed of **60 km/
    cd ~/task_ws
    ```
 
-2. Install required dependencies:
-   ```bash
-   pip install matplotlib
-   ```
-
-3. Build the package:
+2. Build the package:
    ```bash
    colcon build --packages-select pre_interview
    source install/setup.bash
