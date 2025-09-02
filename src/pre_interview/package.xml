@@ -4,7 +4,7 @@
   <name>pre_interview</name>
   <version>0.0.0</version>
   <description>PID Speed Controller Package</description>
-  <maintainer email="your_email@example.com">ash-galal</maintainer>
+  <maintainer email="root@todo.todo">ash-galal</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
