@@ -1,0 +1,21 @@
+[1.247s] Invoking command in '/home/ash-galal/task_ws/build/pre_interview': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ash-galal/task_ws/build/pre_interview/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ash-galal/task_ws/build/pre_interview/build --no-deps symlink_data
+[1.737s] running develop
+[2.067s] running egg_info
+[2.100s] writing pre_interview.egg-info/PKG-INFO
+[2.101s] writing dependency_links to pre_interview.egg-info/dependency_links.txt
+[2.101s] writing entry points to pre_interview.egg-info/entry_points.txt
+[2.101s] writing requirements to pre_interview.egg-info/requires.txt
+[2.102s] writing top-level names to pre_interview.egg-info/top_level.txt
+[2.165s] reading manifest file 'pre_interview.egg-info/SOURCES.txt'
+[2.167s] writing manifest file 'pre_interview.egg-info/SOURCES.txt'
+[2.199s] running build_ext
+[2.199s] Creating /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre-interview.egg-link (link to .)
+[2.200s] Installing controller script to /home/ash-galal/task_ws/install/pre_interview/lib/pre_interview
+[2.200s] Installing plot_results script to /home/ash-galal/task_ws/install/pre_interview/lib/pre_interview
+[2.200s] Installing vehicle_model script to /home/ash-galal/task_ws/install/pre_interview/lib/pre_interview
+[2.201s] 
+[2.201s] Installed /home/ash-galal/task_ws/build/pre_interview
+[2.201s] running symlink_data
+[2.201s] creating /home/ash-galal/task_ws/install/pre_interview/share/pre_interview/launch
+[2.202s] symbolically linking /home/ash-galal/task_ws/build/pre_interview/launch/sim.launch.py -> /home/ash-galal/task_ws/install/pre_interview/share/pre_interview/launch
+[2.252s] Invoked command in '/home/ash-galal/task_ws/build/pre_interview' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ash-galal/task_ws/build/pre_interview/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ash-galal/task_ws/build/pre_interview/build --no-deps symlink_data

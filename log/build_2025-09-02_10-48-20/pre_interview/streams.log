@@ -1,0 +1,18 @@
+[1.247s] Invoking command in '/home/ash-galal/task_ws/build/pre_interview': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ash-galal/task_ws/build/pre_interview/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ash-galal/task_ws/build/pre_interview/build --no-deps symlink_data
+[1.760s] running develop
+[2.143s] running egg_info
+[2.183s] writing pre_interview.egg-info/PKG-INFO
+[2.183s] writing dependency_links to pre_interview.egg-info/dependency_links.txt
+[2.184s] writing entry points to pre_interview.egg-info/entry_points.txt
+[2.184s] writing requirements to pre_interview.egg-info/requires.txt
+[2.184s] writing top-level names to pre_interview.egg-info/top_level.txt
+[2.261s] reading manifest file 'pre_interview.egg-info/SOURCES.txt'
+[2.265s] writing manifest file 'pre_interview.egg-info/SOURCES.txt'
+[2.302s] running build_ext
+[2.302s] Creating /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre-interview.egg-link (link to .)
+[2.303s] Installing controller script to /home/ash-galal/task_ws/install/pre_interview/lib/pre_interview
+[2.303s] Installing vehicle script to /home/ash-galal/task_ws/install/pre_interview/lib/pre_interview
+[2.303s] 
+[2.303s] Installed /home/ash-galal/task_ws/build/pre_interview
+[2.303s] running symlink_data
+[2.356s] Invoked command in '/home/ash-galal/task_ws/build/pre_interview' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ash-galal/task_ws/build/pre_interview/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ash-galal/task_ws/build/pre_interview/build --no-deps symlink_data

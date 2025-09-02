@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing pre_interview.egg-info/PKG-INFO
+writing dependency_links to pre_interview.egg-info/dependency_links.txt
+writing entry points to pre_interview.egg-info/entry_points.txt
+writing requirements to pre_interview.egg-info/requires.txt
+writing top-level names to pre_interview.egg-info/top_level.txt
+reading manifest file 'pre_interview.egg-info/SOURCES.txt'
+writing manifest file 'pre_interview.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre-interview.egg-link (link to .)
+Installing controller script to /home/ash-galal/task_ws/install/pre_interview/lib/pre_interview
+Installing vehicle script to /home/ash-galal/task_ws/install/pre_interview/lib/pre_interview
+
+Installed /home/ash-galal/task_ws/build/pre_interview
+running symlink_data
+symbolically linking /home/ash-galal/task_ws/build/pre_interview/resource/pre_interview -> /home/ash-galal/task_ws/install/pre_interview/share/ament_index/resource_index/packages
+symbolically linking /home/ash-galal/task_ws/build/pre_interview/package.xml -> /home/ash-galal/task_ws/install/pre_interview/share/pre_interview

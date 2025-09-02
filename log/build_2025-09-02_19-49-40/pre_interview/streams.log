@@ -1,0 +1,24 @@
+[1.376s] Invoking command in '/home/ash-galal/task_ws/src/pre_interview': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ash-galal/task_ws/build/pre_interview/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pre_interview build --build-base /home/ash-galal/task_ws/build/pre_interview/build install --record /home/ash-galal/task_ws/build/pre_interview/install.log --single-version-externally-managed install_data
+[1.814s] running egg_info
+[1.845s] writing ../../build/pre_interview/pre_interview.egg-info/PKG-INFO
+[1.845s] writing dependency_links to ../../build/pre_interview/pre_interview.egg-info/dependency_links.txt
+[1.846s] writing entry points to ../../build/pre_interview/pre_interview.egg-info/entry_points.txt
+[1.846s] writing requirements to ../../build/pre_interview/pre_interview.egg-info/requires.txt
+[1.846s] writing top-level names to ../../build/pre_interview/pre_interview.egg-info/top_level.txt
+[1.913s] reading manifest file '../../build/pre_interview/pre_interview.egg-info/SOURCES.txt'
+[1.915s] writing manifest file '../../build/pre_interview/pre_interview.egg-info/SOURCES.txt'
+[1.917s] running build
+[1.917s] running build_py
+[1.917s] copying pre_interview/vehicle_model.py -> /home/ash-galal/task_ws/build/pre_interview/build/lib/pre_interview
+[1.917s] running install
+[1.928s] running install_lib
+[1.962s] copying /home/ash-galal/task_ws/build/pre_interview/build/lib/pre_interview/vehicle_model.py -> /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview
+[1.964s] byte-compiling /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview/vehicle_model.py to vehicle_model.cpython-312.pyc
+[1.965s] running install_data
+[1.966s] running install_egg_info
+[2.006s] removing '/home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview-0.0.0-py3.12.egg-info' (and everything under it)
+[2.006s] Copying ../../build/pre_interview/pre_interview.egg-info to /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview-0.0.0-py3.12.egg-info
+[2.007s] running install_scripts
+[2.246s] Installing controller script to /home/ash-galal/task_ws/install/pre_interview/lib/pre_interview
+[2.246s] writing list of installed files to '/home/ash-galal/task_ws/build/pre_interview/install.log'
+[2.294s] Invoked command in '/home/ash-galal/task_ws/src/pre_interview' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ash-galal/task_ws/build/pre_interview/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pre_interview build --build-base /home/ash-galal/task_ws/build/pre_interview/build install --record /home/ash-galal/task_ws/build/pre_interview/install.log --single-version-externally-managed install_data

@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/pre_interview/pre_interview.egg-info
+writing ../../build/pre_interview/pre_interview.egg-info/PKG-INFO
+writing dependency_links to ../../build/pre_interview/pre_interview.egg-info/dependency_links.txt
+writing entry points to ../../build/pre_interview/pre_interview.egg-info/entry_points.txt
+writing requirements to ../../build/pre_interview/pre_interview.egg-info/requires.txt
+writing top-level names to ../../build/pre_interview/pre_interview.egg-info/top_level.txt
+writing manifest file '../../build/pre_interview/pre_interview.egg-info/SOURCES.txt'
+reading manifest file '../../build/pre_interview/pre_interview.egg-info/SOURCES.txt'
+writing manifest file '../../build/pre_interview/pre_interview.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ash-galal/task_ws/build/pre_interview/build
+creating /home/ash-galal/task_ws/build/pre_interview/build/lib
+creating /home/ash-galal/task_ws/build/pre_interview/build/lib/pre_interview
+copying pre_interview/controller.py -> /home/ash-galal/task_ws/build/pre_interview/build/lib/pre_interview
+copying pre_interview/__init__.py -> /home/ash-galal/task_ws/build/pre_interview/build/lib/pre_interview
+copying pre_interview/vehicle_model.py -> /home/ash-galal/task_ws/build/pre_interview/build/lib/pre_interview
+running install
+running install_lib
+creating /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview
+copying /home/ash-galal/task_ws/build/pre_interview/build/lib/pre_interview/controller.py -> /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview
+copying /home/ash-galal/task_ws/build/pre_interview/build/lib/pre_interview/__init__.py -> /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview
+copying /home/ash-galal/task_ws/build/pre_interview/build/lib/pre_interview/vehicle_model.py -> /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview
+byte-compiling /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview/controller.py to controller.cpython-312.pyc
+byte-compiling /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview/vehicle_model.py to vehicle_model.cpython-312.pyc
+running install_data
+creating /home/ash-galal/task_ws/install/pre_interview/share/ament_index
+creating /home/ash-galal/task_ws/install/pre_interview/share/ament_index/resource_index
+creating /home/ash-galal/task_ws/install/pre_interview/share/ament_index/resource_index/packages
+copying resource/pre_interview -> /home/ash-galal/task_ws/install/pre_interview/share/ament_index/resource_index/packages
+copying package.xml -> /home/ash-galal/task_ws/install/pre_interview/share/pre_interview
+running install_egg_info
+Copying ../../build/pre_interview/pre_interview.egg-info to /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview-0.0.0-py3.12.egg-info
+running install_scripts
+Installing controller script to /home/ash-galal/task_ws/install/pre_interview/lib/pre_interview
+Installing vehicle script to /home/ash-galal/task_ws/install/pre_interview/lib/pre_interview
+writing list of installed files to '/home/ash-galal/task_ws/build/pre_interview/install.log'

@@ -1,0 +1,128 @@
+[0.149s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'pre_interview']
+[0.150s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['pre_interview'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c1891f99670>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c18920c1f10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c18920c1f10>>, mixin_verb=('build',))
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.202s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ash-galal/task_ws'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pre_interview) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pre_interview) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pre_interview) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pre_interview) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pre_interview) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pre_interview) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pre_interview) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pre_interview) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pre_interview) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pre_interview' with type 'ros.ament_python' and name 'pre_interview'
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.266s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ash-galal/task_ws/install
+[0.267s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ash-galal/colcon/install
+[0.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 487 installed packages in /opt/ros/jazzy
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pre_interview' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pre_interview' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pre_interview' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pre_interview' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pre_interview' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pre_interview' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pre_interview' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pre_interview' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pre_interview' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'pre_interview' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ash-galal/task_ws/build/pre_interview', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ash-galal/task_ws/install/pre_interview', 'merge_install': False, 'path': '/home/ash-galal/task_ws/src/pre_interview', 'symlink_install': False, 'test_result_base': None}
+[0.364s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.365s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ash-galal/task_ws/src/pre_interview' with build type 'ament_python'
+[0.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('pre_interview', 'ament_prefix_path')
+[0.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash-galal/task_ws/install/pre_interview/share/pre_interview/hook/ament_prefix_path.ps1'
+[0.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ash-galal/task_ws/install/pre_interview/share/pre_interview/hook/ament_prefix_path.dsv'
+[0.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash-galal/task_ws/install/pre_interview/share/pre_interview/hook/ament_prefix_path.sh'
+[0.372s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.372s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.754s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ash-galal/task_ws/src/pre_interview'
+[0.755s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ash-galal/task_ws/src/pre_interview': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ash-galal/task_ws/build/pre_interview/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pre_interview build --build-base /home/ash-galal/task_ws/build/pre_interview/build install --record /home/ash-galal/task_ws/build/pre_interview/install.log --single-version-externally-managed install_data
+[2.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ash-galal/task_ws/src/pre_interview' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ash-galal/task_ws/build/pre_interview/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pre_interview build --build-base /home/ash-galal/task_ws/build/pre_interview/build install --record /home/ash-galal/task_ws/build/pre_interview/install.log --single-version-externally-managed install_data
+[2.688s] Level 1:colcon.colcon_core.environment:checking '/home/ash-galal/task_ws/install/pre_interview' for CMake module files
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/home/ash-galal/task_ws/install/pre_interview' for CMake config files
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/ash-galal/task_ws/install/pre_interview/lib'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/ash-galal/task_ws/install/pre_interview/bin'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/ash-galal/task_ws/install/pre_interview/lib/pkgconfig/pre_interview.pc'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages'
+[2.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('pre_interview', 'pythonpath')
+[2.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash-galal/task_ws/install/pre_interview/share/pre_interview/hook/pythonpath.ps1'
+[2.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ash-galal/task_ws/install/pre_interview/share/pre_interview/hook/pythonpath.dsv'
+[2.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash-galal/task_ws/install/pre_interview/share/pre_interview/hook/pythonpath.sh'
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/home/ash-galal/task_ws/install/pre_interview/bin'
+[2.695s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pre_interview)
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash-galal/task_ws/install/pre_interview/share/pre_interview/package.ps1'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ash-galal/task_ws/install/pre_interview/share/pre_interview/package.dsv'
+[2.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash-galal/task_ws/install/pre_interview/share/pre_interview/package.sh'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash-galal/task_ws/install/pre_interview/share/pre_interview/package.bash'
+[2.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash-galal/task_ws/install/pre_interview/share/pre_interview/package.zsh'
+[2.724s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ash-galal/task_ws/install/pre_interview/share/colcon-core/packages/pre_interview)
+[2.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.726s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.726s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.726s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.733s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.733s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.734s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.757s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.757s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ash-galal/task_ws/install/local_setup.ps1'
+[2.759s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ash-galal/task_ws/install/_local_setup_util_ps1.py'
+[2.761s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ash-galal/task_ws/install/setup.ps1'
+[2.764s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ash-galal/task_ws/install/local_setup.sh'
+[2.766s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ash-galal/task_ws/install/_local_setup_util_sh.py'
+[2.767s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ash-galal/task_ws/install/setup.sh'
+[2.769s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ash-galal/task_ws/install/local_setup.bash'
+[2.770s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ash-galal/task_ws/install/setup.bash'
+[2.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ash-galal/task_ws/install/local_setup.zsh'
+[2.774s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ash-galal/task_ws/install/setup.zsh'

@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/pre_interview/pre_interview.egg-info/PKG-INFO
+writing dependency_links to ../../build/pre_interview/pre_interview.egg-info/dependency_links.txt
+writing entry points to ../../build/pre_interview/pre_interview.egg-info/entry_points.txt
+writing requirements to ../../build/pre_interview/pre_interview.egg-info/requires.txt
+writing top-level names to ../../build/pre_interview/pre_interview.egg-info/top_level.txt
+reading manifest file '../../build/pre_interview/pre_interview.egg-info/SOURCES.txt'
+writing manifest file '../../build/pre_interview/pre_interview.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/sim.launch.py -> /home/ash-galal/task_ws/install/pre_interview/share/pre_interview/launch
+running install_egg_info
+removing '/home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/pre_interview/pre_interview.egg-info to /home/ash-galal/task_ws/install/pre_interview/lib/python3.12/site-packages/pre_interview-0.0.0-py3.12.egg-info
+running install_scripts
+Installing controller script to /home/ash-galal/task_ws/install/pre_interview/lib/pre_interview
+writing list of installed files to '/home/ash-galal/task_ws/build/pre_interview/install.log'
