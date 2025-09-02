@@ -6,29 +6,31 @@ This project implements a PID controller to maintain a vehicle speed of **60 km/
 
 ## Setup Instructions
 
-1. Open your workspace:
+1. Navigate to your workspace:
+   ```bash
+   cd ~/task_ws
+   ```
+
+2. Install required dependencies:
+   ```bash
+   pip install matplotlib
+   ```
+
+3. Build the package:
+   ```bash
+   colcon build --packages-select pre_interview
+   source install/setup.bash
+   ```
+
+## How to Run
+
+Use the launch file to run both the vehicle simulator and controller:
 
 ```bash
-cd ~/task_ws
+ros2 launch pre_interview sim.launch.py
 ```
 
-2. Install required Python dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-(If `requirements.txt` only contains `matplotlib`, you can run `pip install matplotlib`.)
-
-3. Build the package and source the workspace:
-
-```bash
-colcon build --packages-select pre_interview
-source install/setup.bash
-```
-
----
-
+**Note**: Do not run the controller alone with `ros2 run pre_interview controller` as it requires the vehicle simulator to be running.
 ## How to Run
 
 Use the launch file (recommended) to run both nodes together:
